@@ -6,14 +6,15 @@ class User:
 
     def activate(self) -> None:
         self.is_active = True
-        print(f"{self.username} foydalanuvchisi faollashtirildi ✅")
+        print(f"{self.username} foydalanuvchisi faollashtirildi ")
 
     def deactivate(self) -> None:
         self.is_active = False
-        print(f"{self.username} foydalanuvchisi bloklandi ❌")
+        print(f"{self.username} foydalanuvchisi bloklandi ")
 
 user1 = User("ozodbek", "ozodbek@gmail.com", False)
 
 
 user1.activate()
 user1.deactivate()
+
